@@ -51,7 +51,7 @@ namespace Knuddels.Tools
             Write((v >> 8) & 0xFF);
             Write(v & 0xFF);
         }
-        public void WriteUTF(String v)
+        public void WriteString(String v)
         {
             this.WriteChars(v.ToCharArray());
         }

@@ -21,7 +21,7 @@ namespace Knuddels.Popup
 
         public void WritePopupString(String str)
         {
-            WriteUTF(str);
+            WriteString(str);
             Write(0xF5);
         }
 
